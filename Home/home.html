@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AJEX BINU — Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#home">AJEX</a></div>
+
+        <!-- Hamburger for mobile -->
+        <div id="hamburger" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Desktop menu -->
+        <ul class="menu desktop-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Mobile menu -->
+        <ul class="menu" id="mobileMenu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- CV button -->
+        <div style="display:flex;align-items:center;gap:12px" class="desktop-menu">
+          <a class="download-cv" href="/Images/CV - Ajex Binu.pdf" download>
+            <i class="fas fa-file-arrow-down"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="home" id="home">
+      <div class="hero-bg-blob" aria-hidden="true"></div>
+      <div class="home-content">
+        <div class="text reveal">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Ajex Binu</div>
+          <div class="text-three">
+            <span class="muted-small">I am a</span>
+            <span class="typing"><span id="typed-role">Future Data Scientist</span></span>
+            <span class="typing-caret" aria-hidden="true"></span>
+          </div>
+          <div class="text-four">T-Level Student • Digital Production, Design & Development</div>
+          <div class="home-cta">
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="/Images/CV - Ajex Binu.pdf" download class="btn btn-ghost">
+              <i class="fas fa-file-download" style="margin-right:8px"></i>Download CV
+            </a>
+          </div>
+        </div>
+
+        <div class="image-container reveal" aria-hidden="true">
+          <img src="/Images/Image - Transparent.PNG" alt="Ajex Photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <br>
+      <div class="content reveal">
+        <div class="left">
+          <img src="/Images/Image - 2.jpg" alt="Profile Image">
+        </div>
+        <div class="right">
+          <h2>About Me</h2>
+          <p>
+            I’m Ajex — a student, developer and musician. I specialise in Python, Data Science basics and building modern web projects.
+            I also love music production, competitive sport and leadership — combining technical skills with creative thinking to deliver real results.
+          </p>
+          <div class="cv-row">
+            <a class="download-cv" href="/Images/CV - Ajex Binu.pdf" download>
+              <i class="fas fa-file-arrow-down"></i> Download CV
+            </a>
+            <div style="width:8px"></div>
+            <div class="muted-small">Based in Worcester, UK • Available for internships & freelance</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <br>
+      <div class="content reveal">
+        <div class="skill-row">
+          <!-- Technical Skills -->
+          <div style="flex:1; min-width:250px; margin-right:20px;">
+            <div class="topic">Technical Skills</div>
+            <div style="margin-top:20px">
+              <div class="skill-item">
+                <div class="skill-label"><span>HTML</span><span>90%</span></div>
+                <div class="skill-bar"><div class="progress" data-target="90"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label"><span>CSS</span><span>80%</span></div>
+                <div class="skill-bar"><div class="progress" data-target="80"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label"><span>JavaScript</span><span>70%</span></div>
+                <div class="skill-bar"><div class="progress" data-target="70"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label"><span>Python</span><span>75%</span></div>
+                <div class="skill-bar"><div class="progress" data-target="75"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label"><span>SQL</span><span>70%</span></div>
+                <div class="skill-bar"><div class="progress" data-target="70"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label"><span>C#</span><span>65%</span></div>
+                <div class="skill-bar"><div class="progress" data-target="65"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Professional Skills -->
+          <div style="flex:1; min-width:250px; margin-left:20px;">
+            <div class="topic">Professional Skills</div>
+            <div class="soft-skill-boxes" style="display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin-top:16px;">
+              <div class="soft-skill">Communication</div>
+              <div class="soft-skill">Teamwork</div>
+              <div class="soft-skill">Time Management</div>
+              <div class="soft-skill">Problem Solving</div>
+              <div class="soft-skill">Project Management</div>
+              <div class="soft-skill">Digital Analysis</div>
+              <div class="soft-skill">Leadership</div>
+              <div class="soft-skill">Critical Thinking</div>
+              <div class="soft-skill">Adaptability</div>
+              <div class="soft-skill">Creativity</div>
+              <div class="soft-skill">Public Speaking</div>
+              <div class="soft-skill">Decision Making</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="achievements-section" id="achievements">
+        <br>
+      <div class="content reveal">
+        <div class="title"><span>My Achievements</span></div>
+        <div class="achievements-grid">
+          <div class="achievement-card">
+            <div class="ach-icon"><i class="fas fa-user-graduate"></i></div>
+            <h4 class="ach-title">Student Ambassador</h4>
+            <p class="ach-desc">Awarded Student Ambassador of the Year (2023–24) at Heart of Worcestershire College for leadership and commitment.</p>
+          </div>
+          <div class="achievement-card">
+            <div class="ach-icon"><i class="fas fa-trophy"></i></div>
+            <h4 class="ach-title">Badminton</h4>
+            <p class="ach-desc">Runner-up in the All UAE School Tournament and qualified for the Nationals (2022).</p>
+          </div>
+          <div class="achievement-card">
+            <div class="ach-icon"><i class="fas fa-music"></i></div>
+            <h4 class="ach-title">Multi-Instrumentalist</h4>
+            <p class="ach-desc">Drums, acoustic & electric guitar, bass and keyboard — active performer and arranger.</p>
+          </div>
+          <div class="achievement-card">
+            <div class="ach-icon"><i class="fas fa-swimmer"></i></div>
+            <h4 class="ach-title">Swimming</h4>
+            <p class="ach-desc">Completed Level 3 at Al Ahly Swimming Academy and competed in multiple tournaments.</p>
+          </div>
+          <div class="achievement-card">
+            <div class="ach-icon"><i class="fas fa-fist-raised"></i></div>
+            <h4 class="ach-title">Karate — 9th Kyu</h4>
+            <p class="ach-desc">Orange Belt (9th Kyu) from IFK (International Federation of Karate Kyokushin), UAE.</p>
+          </div>
+          <div class="achievement-card">
+            <div class="ach-icon"><i class="fas fa-laptop-code"></i></div>
+            <h4 class="ach-title">Python & Data Science</h4>
+            <p class="ach-desc">Completed separate Python and Data Science certificates on Udemy — practical projects & datasets.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <br>
+      <div class="content reveal">
+        <div class="contact-text">
+          <h3 class="topic">Have Any Project?</h3>
+          <p>If you have a project idea, want to collaborate, or need help with web development, design, or data-related work, reach out — I enjoy turning ideas into reality.</p>
+          <div class="contact-info" style="margin-top:16px">
+            <p>Email: <a href="mailto:ajexcbinu@gmail.com">ajexcbinu@gmail.com</a></p>
+            <p>Phone: <a href="tel:+447592955310">+44 7592 955310</a></p>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xjvqovok" method="post">
+            <input type="text" id="username" name="username" required placeholder="Your Name">
+            <input type="email" id="email" name="email" required placeholder="Your Email">
+            <textarea name="message" id="message" cols="30" rows="8" required placeholder="Write Message Here..."></textarea>
+            <input type="submit" value="Send" class="contact-button">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCROLL TO TOP -->
+    <button id="scrollTopBtn" class="scroll-top-btn" title="Go to top">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+      </svg>
+    </button>
+
+    <!-- FOOTER -->
+    <footer>Created By <strong>AJEX BINU</strong> | &#169; 2025 All Rights Reserved</footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- Last Updated: 27-11-2025 -->
