@@ -24,9 +24,9 @@ Hey! This is my personal portfolio site where I showcase my skills, achievements
 
 ---
 
-## How to Use
+## How to View
 
-1. Clone or download the repo:  
+1.  Clone this repository:
    ```bash
-   git clone https://github.com/AjexBinu/Portfolio_v2.git
+   git clone https://github.com/AjexBinu/Portfolio_v2
 
